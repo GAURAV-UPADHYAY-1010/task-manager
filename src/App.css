@@ -1,0 +1,87 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Set the background color of the body to black */
+  color: #00f; /* Set text color to dark blue */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000; /* Set the background color of the container to black */
+  border: 1px solid #00f; /* Add a blue border to the container */
+}
+
+h1 {
+  color: #00f; /* Set the color of the heading text to dark blue */
+  text-align: center;
+}
+
+button {
+  background-color: #00f; /* Set the background color of buttons to dark blue */
+  color: #fff; /* Set text color to white */
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #00f; /* Set the border color of input fields to dark blue */
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* src/App.css */
+
+/* ... Existing styles ... */
+
+li {
+  background-color: #00f; /* Set the background color of list items to dark blue */
+  border: 1px solid #000; /* Set the border color of list items to black */
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff; /* Set the text color of list items to white */
+}
+
+/* ... Remaining styles ... */
+
+button.remove-btn {
+  background-color: #ff4d4d;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+
+  input,
+  select {
+    width: 100%;
+  }
+}
